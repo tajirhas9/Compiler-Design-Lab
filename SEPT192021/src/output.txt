@@ -1,0 +1,27 @@
+[.] Setting source code...
+[.] Analysing tokens...
+
+
+
+<int,keyword>
+<main(),function>
+<{,symbol>
+<int,keyword>
+<a,identifier>
+<,,symbol>
+<ans,identifier>
+<;,symbol>
+<a,identifier>
+<=,operator>
+<12,number>
+<,,symbol>
+<b,identifier>
+<=,operator>
+<0,number>
+<;,symbol>
+<},symbol>
+
+
+Symbol table:
+<12,a>
+<0,b>

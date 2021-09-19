@@ -1,0 +1,4 @@
+int main() {
+    int a, ans;
+    a=12, b=0;
+}
