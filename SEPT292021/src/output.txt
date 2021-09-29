@@ -1,0 +1,71 @@
+Result: Expression: 3 , + , 4 , - , 5 , 
+Postfix Expression: 3 , 4 , + , 5 , - , 
+pushing: 3
+pushing: 4
+operator: +
+popping: 4, 3
+result: 7
+pushing: 7
+pushing: 5
+operator: -
+popping: 5, 7
+result: 2
+pushing: 2
+2
+Result: Expression: 2 , * , 4 , - , 8 , / , 2 , 
+Postfix Expression: 2 , 4 , * , 8 , 2 , / , - , 
+pushing: 2
+pushing: 4
+operator: *
+popping: 4, 2
+result: 8
+pushing: 8
+pushing: 8
+pushing: 2
+operator: /
+popping: 2, 8
+result: 4
+pushing: 4
+operator: -
+popping: 4, 8
+result: 4
+pushing: 4
+4
+Result: Expression: 15 , * , 10 , % , 7 , - , 2 , 
+Postfix Expression: 15 , 10 , * , 7 , % , 2 , - , 
+pushing: 15
+pushing: 10
+operator: *
+popping: 10, 15
+result: 150
+pushing: 150
+pushing: 7
+operator: %
+popping: 7, 150
+result: 3
+pushing: 3
+pushing: 2
+operator: -
+popping: 2, 3
+result: 1
+pushing: 1
+1
+Result: Expression: ( , 122 , + , 3 , ) , / , 15 , - , 5 , 
+Postfix Expression: 122 , 3 , + , 15 , / , 5 , - , 
+pushing: 122
+pushing: 3
+operator: +
+popping: 3, 122
+result: 125
+pushing: 125
+pushing: 15
+operator: /
+popping: 15, 125
+result: 8.33333
+pushing: 8.33333
+pushing: 5
+operator: -
+popping: 5, 8.33333
+result: 3.33333
+pushing: 3.33333
+3.33333

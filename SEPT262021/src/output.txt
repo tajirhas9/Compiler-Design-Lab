@@ -1,0 +1,2 @@
+enter the no. of productions
+enter the productions in a grammar
