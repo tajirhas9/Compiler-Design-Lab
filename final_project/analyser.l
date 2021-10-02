@@ -28,7 +28,7 @@ if|else|then|int|switch|for|char|return|main|string|while|do|break|continue|doub
 
 [a-zA-Z_][a-zA-Z_0-9]*                                  {sscanf(yytext, "%s", yylval.identifier); return (IDENTIFIER);}
 
-[0-9]+[.0-9]*                                           {yylval.number = atoi(yytext); return (NUMBER);}
+[0-9]+[.0-9]*                                           {yylval.number = atof(yytext); return (NUMBER);}
 
 "//".*" "*                                              {sscanf(yytext, "%s", yylval.comment); return (COMMENT);}
 
