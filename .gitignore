@@ -1,2 +1,9 @@
 *.o
 *.exe
+*.out
+parser.output
+parser.tab.c
+parser.tab.h
+lex.yy.c
+parser
+output.txt
